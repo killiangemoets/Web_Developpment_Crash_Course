@@ -1,0 +1,389 @@
+/* GENERAL */
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+} 
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    padding: 45px 0 80px 0;
+}
+
+section .heading{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+section .heading h2{
+    text-transform: uppercase;
+}
+
+.red-divider{
+    width: 100px;
+    height: 2px;
+    background: #d82c2e;
+    margin: 0 auto;
+}
+
+.white-divider{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/* MENU */
+.navbar{
+    background: #d82c2e;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+    text-align: center;
+
+}
+
+.navbar li a{
+    color: #fff !important;
+}
+
+.navbar-nav a:hover, .navbar-nav li.active a{
+    color: #d82c2e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle{
+    border-style: none;
+
+}
+
+.icon-bar{
+    background-color: #fff !important;
+}
+
+/* ABOUT */
+
+#about{
+    padding-top: 100px;
+    background: #d82c2e;
+}
+
+.profile-picture{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+#about .heading h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#about .heading h3{
+    color: #000;
+}
+
+.button1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover{
+    background: white;
+    color: #d82c2e;
+    text-decoration: none;
+
+}
+
+
+/* SKILLS */
+
+#skills{
+    background: #fff;
+}
+
+#skills .heading h2{
+    color: #d82c2e;
+}
+
+#skills .progress{
+    height: 100%;
+    margin: 30px 20px;
+    background: #ddd;
+}
+
+#skills .progress-bar{
+    background: #d82c2e;
+}
+
+#skills .progress h5{
+    text-shadow: 1px 1px 1px 1px #000;
+}
+
+/* EXPERIENCE */
+
+#experience{
+    background: #d82c2e;
+}
+
+#experience .heading h2{
+    color: #fff;
+}
+
+.timeline{
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeline:before{
+    top: 0;
+    bottom: 0%;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    background: #333;
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+.timeline > li{ /* Le signe supérieur signifie le parent direct (c'est plus précis) */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:after{
+    clear: both;
+}
+
+.timeline > li:before, .timeline > li:after{
+    content: " ";
+    display: table;
+}
+
+.timeline li .timeline-badge{
+    color: #d82c2e;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+.timeline-panel-container{
+    width: 50%;
+    float: left;
+}
+
+.timeline-panel-container-inverted{
+    width: 50%;
+    float: right;
+}
+
+
+.timeline-panel{
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #d4d4d4;
+    border-radius: 7.2px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.176);
+    background: #fff;
+}
+
+.timeline-panel-container-inverted .timeline-panel{
+    float: left;
+    margin-left: 40px;
+}
+
+.timeline-panel:after{
+    position: absolute;
+    top: 27.2px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0px solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after{
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline-heading h3{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.timeline-heading h4{
+    color: #d82c2e;
+}
+
+/* EDUCATION */
+
+#education{
+    background: #fff;
+}
+
+#education .heading h2{
+    color: #d82c2e;
+}
+
+.education-block{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.education-block h5{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.education-block .glyphicon{
+    font-size: 40px;
+}
+
+.education-block h3{
+    color: #d82c2e;
+}
+
+.education-block h4{
+    margin-bottom: 20px;
+}
+
+.education-block p{
+    font-weight: bold;
+}
+
+.education-block .red-divider{
+    margin-bottom: 20px;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio{
+    background: #d82c2e;
+}
+
+#portfolio .heading h2{
+    color: #fff;
+}
+
+#portfolio .thumbnail img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#portfolio .thumbnail img:hover{
+    filter: none;
+    -webkit-filter: none;
+}
+
+/* RECOMMANDATIONS */
+#recommandations{
+    background: #fff;
+}
+
+#recommandations .heading h2{
+    color: #d82c2e;
+}
+
+.carousel-control.left, .carousel-control.right{ 
+/* Selectionne l'élément qui à la classe "carousel-control" ET la classe "left" */
+    background-image: none;
+    color: #d82c2e;
+}
+
+.carousel-indicators{
+    bottom: 0px;
+}
+
+.carousel-indicators li{
+    border-color: #d82c2e;
+}
+
+.carousel-indicators li.active{
+    background-color: #d82c2e;
+}
+
+#myCarousel .item{
+    padding: 40px 30px;
+}
+
+#myCarousel .item h3{
+    color: #d82c2e;
+    font-style: italic;
+}
+
+
+/* FOOTER */
+footer{
+    background: #333;
+    padding: 20px 0 40px;
+}
+
+footer .glyphicon{
+    font-size: 25px;
+    margin: 20px;
+    color: #d82c2e;
+    height: 30px; /* Permet au bouton de ne pas bouger le texte en dessous quand il grandira */
+}
+
+footer .glyphicon:hover{
+    font-size: 27.2px;
+}
+
+footer h5{
+    color: #fff;
+    font-weight: normal;
+}

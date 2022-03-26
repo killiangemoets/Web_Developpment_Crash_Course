@@ -1,0 +1,6 @@
+
+/* modifie le premier p */
+p:first-child{
+    font-style: oblique;
+    color: lightcoral;
+}

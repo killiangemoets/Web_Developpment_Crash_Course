@@ -1,0 +1,9 @@
+*
+{
+    border: 5px solid red;
+    margin: 10px;
+}
+html,body
+{
+    border: 5px none red;
+}

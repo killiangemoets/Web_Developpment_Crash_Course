@@ -1,0 +1,30 @@
+.left{
+   height: 1450px;
+   width: 200px;
+   background-color: blue;
+   position: static /* valeur par défaut de la position */;
+  
+}
+
+.right{
+   height: 500px;
+   width: 150px;
+   background-color: red;
+   /* position: static; valeur par défaut de la position */
+   /* position: relative; permet d'utiliser les propritées top bottom left right */
+   /* top: 100px;
+   left: 300px; */
+   /* position: fixed; position fixe sur l'écran */
+   /* bottom: 0px;
+   right: 0px; */
+   position: absolute; /* top/bottom/left/right exprimé par rapport au premier 
+                       parent qui n'est pas de position statique*/
+   top: 100px;
+   left: 100px; 
+}
+
+#container{
+   position: relative; /*maintenant la position du container n'est plus statique */
+   margin-top: 200px;
+   margin-left: 200px;
+} 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" initial-scale=1> 
+        <!-- On initialise la largeur de notre viewport avec celle du device (ordi, téléphon, tablette, ...) -->
+        <!-- On met le niveau de zoom initial à 1 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- Container = container à largeur fixe (de largeur ci-dessous), Container-fluid = container qui prend toute la largeur -->
+        <!-- xs < 768px (phones) largeur de container = all screen
+            sm >= 768px (tablets) largeur de container = 750px
+            md >= 992px (desktop) l = 970px
+            lg >= 1200px (large desktop) l = 1170px   
+        -->
+        <div class="container" style="margin-top: 50px;">
+            <img src="view.JPG" class="img-rounded">
+            <img src="view.JPG" class="img-circle">
+            <img src="view.JPG" class="img-thumbnail">
+            <img src="view.JPG" class="img-responsive"> <!-- L'image rétrci avec l'écran -->
+        </div>
+    </body>
+</html>

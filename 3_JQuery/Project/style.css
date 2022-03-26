@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+body{
+    background: #bfbfbf url("images/background.jpg") repeat-x;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    padding: 30px 0;
+}
+header h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+
+}
+
+/* Main Menu */
+#main_menu ul{
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 148px;
+}
+
+#main_menu ul li
+{
+    float: left;
+    width: 140px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bw{
+    position: absolute;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url("images/bw-image.jpg") no-repeat;
+    opacity: 0.7;
+     
+}
+
+.color{
+    position: absolute;
+    left: 140px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url("images/color-image.jpg") no-repeat;
+    
+}
+
+#part2 div{
+    background-position: -140px 0;
+}
+#part3 div{
+    background-position: -280px 0;
+}
+
+#part4 div{
+    background-position: -420px 0;
+}
+#part5 div{
+    background-position: -560px 0;
+}
+
+.description{
+    position: absolute;
+    left: 140px;
+    width: 240px;
+    height: 460px;
+    padding: 20px;
+    background: white;
+}
+
+.description h2{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Limelight', sans-serif;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.description h3{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'Lobster', sans-serif;
+    background: #d70000;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+
+}
+
+.description p{
+    padding-top: 35px;
+    font-size: 22px;
+    font-family: 'Lobster', sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+/* Buttons Menu */
+#buttons_menu{
+    float: left;
+    width: 100%;
+    padding: 170px 0 50px 0;
+}
+
+#buttons_menu ul{
+    float: left;
+    position: relative;
+    left: 50%;
+    text-align: center;
+}
+
+
+.button{
+    float: left;
+    width: 150px;
+    margin-left: 30px;
+    padding: 10px 0;
+    position: relative;
+    right: 50%;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.75);
+    background: #333;
+    border: 2px solid #b70000;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* .button:hover{
+    background: #b70000;
+    border: 2px solid #333;
+    font-size: 24px;
+} */
+
+.hovered{
+    background: #b70000;
+    border: 2px solid #333;
+    font-size: 24px;
+}

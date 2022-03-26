@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" initial-scale=1> 
+        <!-- On initialise la largeur de notre viewport avec celle du device (ordi, téléphon, tablette, ...) -->
+        <!-- On met le niveau de zoom initial à 1 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- Container = container à largeur fixe (de largeur ci-dessous), Container-fluid = container qui prend toute la largeur -->
+        <!-- xs < 768px (phones) largeur de container = all screen
+            sm >= 768px (tablets) largeur de container = 750px
+            md >= 992px (desktop) l = 970px
+            lg >= 1200px (large desktop) l = 1170px   
+        -->
+        <div class="container" style="margin-top: 200px;">
+
+            <button id="special" type="button" class="btn btn-primary" data-toggle="tooltip" title="Coucou me voici">Tooltip</button>
+
+            <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="Coucou me voici">Tooltip</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+
+p {
+color: rgb(116, 76, 209);
+/* pour une représentation exadécimale: color: #30edf2; */
+/* pour ajouter la transparence: color: rgba(red, green, blue, alpha 0 to 1);*/
+
+font-size: 2em; /* 2 fois plus grand*/;
+/* pour exprimer en pixels : font-size: 30px; */
+
+/* 3 catégories de polices:
+- celles qu'on dédice d'inclure dans le code, on peut inclure un fichier sur css pour avoir des polices plus origniales
+- celles installées sur notre ordi
+- celles intégrés aux css :  serif, sans-serif, cursive
+*/
+
+font-family: Helvetica, Arial, cursive; /* si l'utilisateur n'a pas d'helevtica, ce sera afficher en arial, 
+si pas arial non plus ce sera en serif */
+/* remarque: la dernière police on mettra toujours une des trois polices directement intégrée au css*/
+
+font-weight: bold;
+
+text-align: right;
+
+}
+
+h1 {
+    color: royalblue;
+}
+
+div div p {
+    font-size: 15px;
+    color: tomato;
+}
+
+/* l'étoile permet de toucher tous les éléments */
+*{
+
+    border: 2px solid black;
+}
+
+/**** SELECTEUR DE CLASSE : ***/
+/* permet de répéter le même style pour différents éléments*/
+.special_paragraph{
+    color: chartreuse;
+}
+
+/**** SELECTEUR DE ID : ***/
+
+/* appliquer quelque chose à un élément spécifique */
+#unique{
+    font-size: 80px;
+}
+
+/**** SELECTEURS DE PSEUDO-CLASSES : ***/
+
+/* Lien pas encore visité*/
+a:link{
+    color: orange;
+}
+
+/* Lien quand on passe la souris dessus*/
+
+a:visited{
+    color: greenyellow;
+}
+
+a:hover{
+    color: hotpink;
+}
+/* Lien déjà visité*/
+
+/* modifie le premier p */
+p:first-child{
+    font-style: oblique;
+}

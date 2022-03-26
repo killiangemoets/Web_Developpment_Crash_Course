@@ -1,0 +1,25 @@
+.left{
+   height: 450px;
+   width: 200px;
+   background-color: blue;
+   float: left; /*la propriété flotte donc le contenu se supperpose*/
+}
+
+.right{
+   height: 500px;
+   width: 150px;
+   background-color: red;
+   float: right;
+}
+
+header{
+   height: 100px;
+   background-color: yellow;
+}
+
+footer{
+   height: 100px;
+   background-color: gray;
+   clear: left; /*il va se mettre après la div qui flotte à gauche */
+   /*clear: both; il va se mettre après les 2 divs qui flottent */
+}

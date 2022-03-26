@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" initial-scale=1> 
+        <!-- On initialise la largeur de notre viewport avec celle du device (ordi, téléphon, tablette, ...) -->
+        <!-- On met le niveau de zoom initial à 1 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- Container = container à largeur fixe (de largeur ci-dessous), Container-fluid = container qui prend toute la largeur -->
+        <!-- xs < 768px (phones) largeur de container = all screen
+            sm >= 768px (tablets) largeur de container = 750px
+            md >= 992px (desktop) l = 970px
+            lg >= 1200px (large desktop) l = 1170px   
+        -->
+        <div class="container-fluid">
+            <div class="row"></div>
+            <!-- <form  class="form-inline" style="margin:50px;"></form> -->
+                <form style="margin:50px;">
+                    <div class="form-group has-error">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control input-lg">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" class="form-control">
+                    </div>
+                    <div class="form-group has-success">
+                        <label for="comment">Comment</label>
+                        <textarea class="form-control" id="comment"></textarea>
+                    </div>
+                    <div class="checkbox">
+                        <label class="checkbox-inline"><input type="checkbox" value="">Option 1</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="" disabled>Option 2</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" value="">Option 1</label><br>
+
+                        <label><input type="radio" value="">Option 2</label>
+                    </div>
+                    <button type="submit" class="btn btn-default">submit</button>
+                </form>
+        </div>
+    </body>
+</html>

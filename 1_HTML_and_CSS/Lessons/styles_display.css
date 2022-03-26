@@ -1,0 +1,12 @@
+
+/* Display: block = chaque élément oblige le suivant à aller à la ligne */
+/* Display: inline = affiche les éléments en ligne */
+/* Display: inline-block = affiche les éléments en ligne mais en considérant un block 
+   différent pour chaque élément */
+/* Display: none = ne rien afficher */
+
+   p{
+    display: inline-block;
+    background-color: yellow;
+    width: 200px;
+}

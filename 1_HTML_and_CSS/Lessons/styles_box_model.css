@@ -1,0 +1,31 @@
+.red{
+   background-color: red;
+   width: 400px;
+   height: 500px;
+   /*margin: 100px;  pour mettre la même marge de tous les côtés*/
+   /* margin-top: 100px; pour mettre une marge juste sur le top */
+   /*margin: 50px 20px 30px 80px; haut droite bas gauche */
+   margin: 100px 50px; /*haut=bas=100px et gauche=droite=50px */
+   
+   /* border-style: solid; solid ou none
+   border-width: 5px;
+   border-color: gray; */ 
+   border: 10px solid green;
+   border-left: 5px solid yellow;
+   
+   /* le padding marche comme les marges */
+   /*padding: 50px;
+   padding-top: 100px; */
+   padding: 50px 20px
+
+}
+
+.blue{
+   background-color:blue;
+   width: 400px;
+   height: 500px;
+   /*margin: 100px;  pour mettre la même marge de tous les côtés*/
+   /* margin-top: 100px; pour mettre une marge juste sur le top */
+    /*margin: 50px 20px 30px 80px; haut droite bas gauche */
+    margin: 100px auto; /* le "auto" fait que la boite va restée centrée */
+}
